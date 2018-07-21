@@ -1,0 +1,151 @@
+<div ng-controller="homeController">
+        <div class="banner">
+                <div class="container">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <div class="banner_info">
+                                        <h3>Maecenas tempus nulla</h3>
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="banner_info">
+                                        <h3>voluptate velit esse</h3>
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="banner_info">
+                                        <h3>Dolor in reprehenderit</h3>
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- flexSlider -->
+                        <script defer src="js/jquery.flexslider.js"></script>
+                        <script type="text/javascript">
+                            $(window).load(function(){
+                              $('.flexslider').flexslider({
+                                animation: "slide",
+                                start: function(slider){
+                                  $('body').removeClass('loading');
+                                }
+                              });
+                            });
+                        </script>
+                    <!-- //flexSlider -->
+                </div>
+            </div>
+        <!-- //banner -->	
+                <!-- tabs -->
+            <div class="tabs">
+                    <div class="tabs-left">
+                        <div class="col-xs-2 tab-grid-left"> <!-- required for floating -->
+                            <!-- Nav tabs -->
+                             <ul class="nav nav-tabs">
+                                <li class="active"><a href="#Tab1" data-toggle="tab" aria-expanded="false">Curabitur</a></li>
+                                <li class=""><a href="#Tab2" data-toggle="tab" aria-expanded="false">Laoreet</a></li>
+                                <li class=""><a href="#Tab3" data-toggle="tab" aria-expanded="false">Praesent</a></li>
+                                <li class=""><a href="#Tab4" data-toggle="tab" aria-expanded="false">Commodo</a></li>
+                                <li class=""><a href="#Tab5" data-toggle="tab" aria-expanded="true">Tristique</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-10 tab-grid-right">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Tab1">
+                                    <div class="col-md-6 w3-text">
+                                        <h3>Praesent vitae tortor ac leo commodo laoreet</h3>
+                                        <p>Curabitur ac auctor nunc. Praesent vitae tortor ac leo commodo laoreet nec non nisi. Fusce ornare, augue tristique ornare dictum, elit magna viverra elit Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero.</p>
+                                    </div>
+                                    <div class="col-md-6 w3-imga">
+                                        <img src="images/1.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="tab-pane" id="Tab2">
+                                    <div class="col-md-6 w3-imga">
+                                        <img src="images/4.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="col-md-6 w3-text">
+                                        <h3>Praesent vitae tortor ac leo commodo laoreet</h3>
+                                        <p>Curabitur ac auctor nunc. Praesent vitae tortor ac leo commodo laoreet nec non nisi. Fusce ornare, augue tristique ornare dictum, elit magna viverra elit Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="tab-pane" id="Tab3">
+                                    <div class="col-md-6 w3-text">
+                                        <h3>Praesent vitae tortor ac leo commodo laoreet</h3>
+                                        <p>Curabitur ac auctor nunc. Praesent vitae tortor ac leo commodo laoreet nec non nisi. Fusce ornare, augue tristique ornare dictum, elit magna viverra elit Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero.</p>
+                                    </div>
+                                    <div class="col-md-6 w3-imga">
+                                        <img src="images/5.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="tab-pane" id="Tab4">
+                                    <div class="col-md-6 w3-imga">
+                                        <img src="images/6.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="col-md-6 w3-text">
+                                        <h3>Praesent vitae tortor ac leo commodo laoreet</h3>
+                                        <p>Curabitur ac auctor nunc. Praesent vitae tortor ac leo commodo laoreet nec non nisi. Fusce ornare, augue tristique ornare dictum, elit magna viverra elit Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="tab-pane" id="Tab5">
+                                    <div class="col-md-6 w3-text">
+                                        <h3>Praesent vitae tortor ac leo commodo laoreet</h3>
+                                        <p>Curabitur ac auctor nunc. Praesent vitae tortor ac leo commodo laoreet nec non nisi. Fusce ornare, augue tristique ornare dictum, elit magna viverra elit Qapiente itaque earum rerum hic tenetur a delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut At vero.</p>
+                                    </div>
+                                    <div class="col-md-6 w3-imga">
+                                        <img src="images/7.jpg" class="img-responsive" alt="">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+            </div>
+            <!-- //tabs -->
+            <!-- welcome -->
+            <div class="wthree-welcome">
+                    <div class="col-md-6 wthree-welcome-left">
+                        <h3>Vivamus gravida justo mattis ex pretium, eu sollicitudin </h3>
+                        <p>Nullam maximus dolor sed velit gravida, quis vestibulum eros sagittis. Nulla ultricies metus a turpis pretium volutpat. Cras consectetur tempus lectus id accumsan. Vivamus gravida justo mattis ex pretium, eu sollicitudin tortor ullamcorper. Quisque vitae diam molestie, tincidunt velit vitae, viverra nisl. Mauris ultrices commodo imperdiet. In urna odio, semper nec est non, pulvinar molestie quam. Etiam egestas varius nunc et rutrum. Curabitur tempor lacinia pharetra. Ut laoreet urna sed risus consequat laoreet. In volutpat sollicitudin volutpat. </p>
+                    </div>
+                    <div class="col-md-6 wthree-welcome-right">
+                    
+                    </div>
+                    <div class="clearfix"></div>
+                
+            </div>
+            <!-- //welcome -->
+            <div class="branch-wthree">
+                <div class="container">
+                    <h3>Our branches</h3>
+                    <p>Lorem ipsum dolor amet sit Donec semper rutrum ipsum et bibendum. Sed condimentum dolor velit. Donec semper rutrum ipsum et bibendum. Sed condimentum dolor velit. Donec semper rutrum ipsum et bibendum. Sed condimentum dolor velit. Donec semper rutrum ipsum et bibendum. Sed condimentum dolor velit.</p>
+                    
+                </div>
+            </div>
+        
+        <!-- welcome -->
+            <div class="wthree-welcome www">
+                    <div class="col-md-6 wthree-welcome-right1">
+                    
+                    </div>
+                    <div class="col-md-6 wthree-welcome-left1">
+                        <h3>Vivamus gravida justo mattis ex pretium, eu sollicitudin </h3>
+                        <p>Nullam maximus dolor sed velit gravida, quis vestibulum eros sagittis. Nulla ultricies metus a turpis pretium volutpat. Cras consectetur tempus lectus id accumsan. Vivamus gravida justo mattis ex pretium, eu sollicitudin tortor ullamcorper. Quisque vitae diam molestie, tincidunt velit vitae, viverra nisl. Mauris ultrices commodo imperdiet. In urna odio, semper nec est non, pulvinar molestie quam. Etiam egestas varius nunc et rutrum. Curabitur tempor lacinia pharetra. Ut laoreet urna sed risus consequat laoreet. In volutpat sollicitudin volutpat. </p>
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                
+            </div>
+            <!-- //welcome -->
+</div>
